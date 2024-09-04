@@ -3,7 +3,7 @@
       <button>Development</button>
         <div class="container2">
           <h2 class="titulo">Lista de proyectos</h2>
-                <!-- <projectCreate/> -->
+                <projectCreate/>
         </div>
     </div>
 </template>

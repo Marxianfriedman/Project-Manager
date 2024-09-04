@@ -1,17 +1,17 @@
 <template>
   <div class="grupos">
     <h2>Grupos</h2>
-    <ProjectListComponent/>
+    <projectListComponent/>
   </div>
 </template>
 
 <script>
-import ProjectListComponent from './projectListComponent.vue';
+import projectListComponent from './projectListComponent.vue';
 
 export default {
   name: 'groupsComponent',
   components: {
-    ProjectListComponent
+    projectListComponent,
   }
 }
 

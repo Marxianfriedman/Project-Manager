@@ -1,7 +1,7 @@
 <template>
     <div class="container">
 
-      <!-- <headerComponent /> -->
+      <headerComponent />
 
       <h1 class="titulo">Manager Project</h1>
         <div>
@@ -10,7 +10,7 @@
 
           <div class="projects">
             <div>
-              <!-- <projectListComponent/> -->
+              <projectListComponent/>
             </div>
           </div>
 
@@ -26,14 +26,12 @@
 <script>
 import groupsComponent from './components/groupsComponent.vue';
 import headerComponent from './components/headerComponent.vue'
-// import projectListComponent from './components/projectListComponent.vue';
 
 export default {
   name: 'App',
   components: {
     headerComponent,
     groupsComponent,
-    // projectListComponent,
   }
 }
 </script>
