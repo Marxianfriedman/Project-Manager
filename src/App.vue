@@ -7,7 +7,7 @@
         <div>
           <groupsComponent/>
         </div>
-
+<span>rick</span>
           <div class="projects">
             <div>
             </div>
